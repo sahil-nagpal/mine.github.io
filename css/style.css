@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grid{
+    margin-top: 20px;
+    height: 420px;
+    display: flex;
+    width: 420px;
+    flex-wrap:wrap;
+    background-color: dimgray;
+}
+
+.grid div{
+    height: 40px;
+    width: 40px;
+    border:1px solid transparent;
+    background-image: url("https://minesweeper.online/img/skins/hd/closed.svg?v=3");
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 1px 2px -2px;
+    background-size: 100%;
+}
+.grid .bomb{
+    background-color: red;
+    /* background-image: url(../assets/bomb.png);
+    background-repeat: no-repeat; */
+}
+.grid .red{
+    background-color: red;
+}
+
+.grid .white{
+    background-color: white;
+}
